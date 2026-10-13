@@ -6,23 +6,39 @@
       "telefone": "47999990000"
     },
     {
-      "id": "2",
-      "nome": "Carlos",
-      "telefone": "47988880000"
+      "nome": "oiii",
+      "telefone": 123445566,
+      "id": "FPmngIJVOFI"
+    },
+    {
+      "nome": "aaaaaaaaaaa",
+      "telefone": "aa",
+      "id": "-dLaQ6pkuro"
+    },
+    {
+      "nome": "kika",
+      "telefone": "5235325",
+      "id": "R6M1rIDsW8E"
     }
   ],
   "pets": [
-    {
-      "id": "2",
-      "nome": "Nino",
-      "especie": "Gato",
-      "tutorId": "1"
-    },
     {
       "nome": "tortuguita",
       "especie": "cachorro",
       "tutorId": "1",
       "id": "yjZQAEhOvGA"
+    },
+    {
+      "nome": "jungkook",
+      "especie": "Coelho",
+      "tutorId": "R6M1rIDsW8E",
+      "id": "1cLlwVlKWeI"
+    },
+    {
+      "nome": "aaaaaaa",
+      "especie": "Gato",
+      "tutorId": "1",
+      "id": "ae5izpFIJlY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

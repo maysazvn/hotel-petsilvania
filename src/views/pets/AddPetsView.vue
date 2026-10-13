@@ -73,16 +73,27 @@ onMounted(carregarTutores) //sempre no final, passar algo dentro do () pra quand
         <input type="text" class="form-control" id="nome" v-model="novoPet.nome" required>
       </div>
 <!-- especie -->
-      <div class="col-md-6">
-        <label for="especie" class="form-label">Espécie:</label>
-
-        <select name="especie" id="especie" class="form-select" required v-model="novoPet.especie">
-<option value="" disabled>Selecione a espécie:</option>
-        <option value="cachorro">Cachorro</option>
-                <option value="cachorro">Coelho</option>
-        <option value="cachorro">Tartaruga</option>
+      
+<div class="col-md-6">
+        <label for="especie">Espécie</label>
+        <select
+          name="especie"
+          id="especie"
+          class="form-select"
+          required
+          v-model="novoPet.especie"
+        >
+          <option
+            value=""
+            disabled
+          >
+            Selecione uma espécie
+          </option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Gato">Gato</option>
+          <option value="Coelho">Coelho</option>
+          <option value="Tartaruga">Tartaruga</option>
         </select>
-
       </div>
 
       <!-- nome tutor -->
