@@ -3,22 +3,87 @@
     {
       "id": "1",
       "nome": "Ana",
-      "telefone": "47999990000"
+      "telefone": "47999990000",
+      "cpf": "123456789-12",
+      "email": "ana@gmail.com",
+      "data": "11/05/2001",
+      "observacoes": "oi, sou a ana e gosto muito de cachorros",
+      "endereco": {
+    "rua": "aaaaa",
+    "numero": "123",
+    "bairro": "bbbbbbbb",
+    "cidade": "acc",
+    "estado": "aaaawra",
+    "cep": "5325235"
+  }
     },
     {
       "nome": "oiii",
       "telefone": 123445566,
-      "id": "FPmngIJVOFI"
+      "id": "FPmngIJVOFI",
+      "cpf": "123456789-12",
+      "email": "oiii@gmail.com",
+      "data": "18/09/1999",
+      "observacoes": "oiii",
+      "endereco": {
+    "rua": "aaaaa",
+    "numero": "123",
+    "bairro": "cracolandia",
+    "cidade": "acc",
+    "estado": "aaaawra",
+    "cep": "5325235"
+  }
     },
     {
       "nome": "aaaaaaaaaaa",
       "telefone": "aa",
-      "id": "-dLaQ6pkuro"
+      "id": "-dLaQ6pkuro",
+      "cpf": "123456789-12",
+      "email": "aa@gmail.com",
+      "data": "23/04/2003",
+      "observacoes": "aaaaaa",
+      "endereco": {
+    "rua": "aaaaa",
+    "numero": "123",
+    "bairro": "bbbbbbbb",
+    "cidade": "acc",
+    "estado": "aaaawra",
+    "cep": "5325235"
+  }
     },
     {
       "nome": "kika",
       "telefone": "5235325",
-      "id": "R6M1rIDsW8E"
+      "id": "R6M1rIDsW8E",
+      "cpf": "123456789-12",
+      "email": "kika@gmail.com",
+      "data": "17/07/2008",
+      "observacoes": "gosto muito de loirinhos",
+      "endereco": {
+    "rua": "rua das florzinhas",
+    "numero": "1309",
+    "bairro": "boa vista",
+    "cidade": "joinville",
+    "estado": "santa catarina",
+    "cep": "5325235"
+  }
+    },
+    {
+      "nome": "maysa",
+      "telefone": "13324412515",
+      "id": "eTuwlWHS-04",
+      "cpf": "123456789-12",
+      "email": "maysa@gmail.com",
+      "data": "29/01/2010",
+      "observacoes": "gosto muito de professoras de danca",
+      "endereco": {
+    "rua": "antovalrodasi",
+    "numero": "145",
+    "bairro": "joão costa",
+    "cidade": "joinville",
+    "estado": "santa catarina",
+    "cep": "5325235"
+  }
     }
   ],
   "pets": [
@@ -35,10 +100,22 @@
       "id": "1cLlwVlKWeI"
     },
     {
-      "nome": "aaaaaaa",
-      "especie": "Gato",
+      "nome": "aa",
+      "especie": "Tartaruga",
       "tutorId": "1",
-      "id": "ae5izpFIJlY"
+      "id": "YaeQKQlTOhc"
+    },
+    {
+      "nome": "chuvisco",
+      "especie": "Gato",
+      "tutorId": "eTuwlWHS-04",
+      "id": "Jz3p77k_o5E"
+    },
+    {
+      "nome": "milo",
+      "especie": "Cachorro",
+      "tutorId": "eTuwlWHS-04",
+      "id": "vrS3E4p0hMk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
